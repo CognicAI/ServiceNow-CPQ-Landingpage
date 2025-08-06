@@ -18,9 +18,9 @@ function App() {
       <main>
         <Hero />
         <Problem />
+        <Workflow />
         <Solution />
         <Features />
-        <Workflow />
         <Demo />
         <Architecture />
         <Technology />

@@ -105,7 +105,7 @@ export const Technology: React.FC = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="/images/architecture-diagram.png"
                 alt="Technology Architecture"
                 className="w-full h-64 object-cover rounded-xl shadow-lg"
               />

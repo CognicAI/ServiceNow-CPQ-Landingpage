@@ -6,10 +6,9 @@ export const Navigation: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { label: 'Problem', href: '#problem' },
-    { label: 'Solution', href: '#solution' },
+    { label: 'Challenges', href: '#problem' },
+    { label: 'Solution', href: '#workflow' },
     { label: 'Features', href: '#features' },
-    { label: 'Workflow', href: '#workflow' },
     { label: 'Demo', href: '#demo' },
     { label: 'Architecture', href: '#architecture' },
     { label: 'Technology', href: '#technology' },

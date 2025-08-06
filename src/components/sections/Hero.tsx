@@ -28,7 +28,7 @@ export const Hero: React.FC = () => {
                 variant="primary" 
                 size="lg" 
                 icon={Play}
-                className="bg-white text-blue-900 hover:bg-blue-50"
+                className="bg-blue-600 hover:bg-blue-700 text-white border-0 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
               >
                 View Live Demo
               </Button>
@@ -36,7 +36,7 @@ export const Hero: React.FC = () => {
                 variant="outline" 
                 size="lg" 
                 icon={Download}
-                className="border-white text-white hover:bg-white hover:text-blue-900"
+                className="bg-white bg-opacity-10 backdrop-blur-sm border-white border-opacity-30 text-white hover:bg-white hover:bg-opacity-20 hover:border-opacity-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
               >
                 Download Brochure
               </Button>
