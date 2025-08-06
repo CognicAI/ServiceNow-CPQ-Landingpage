@@ -1,39 +1,42 @@
 import React from 'react';
-import { Linkedin, Mail, Github } from 'lucide-react';
+import { Linkedin, Mail } from 'lucide-react';
 
 export const Team: React.FC = () => {
   const teamMembers = [
     {
-      name: 'Alex Chen',
-      role: 'Lead Developer & ServiceNow Architect',
+      name: 'Harsha Vardhanu Parnandi',
+      role: 'Team Lead & ServiceNow Architect',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-      linkedin: 'https://linkedin.com/in/alexchen',
-      email: 'alex.chen@servicenow-cpq.com',
-      github: 'https://github.com/alexchen'
+      linkedin: 'https://www.linkedin.com/in/harshavardhanuparnandi/',
+      email: 'harshajustin2@gmail.com'
     },
     {
-      name: 'Sarah Rodriguez',
-      role: 'UX Designer & Frontend Specialist',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-      linkedin: 'https://linkedin.com/in/sarahrodriguez',
-      email: 'sarah.rodriguez@servicenow-cpq.com',
-      github: 'https://github.com/sarahrodriguez'
-    },
-    {
-      name: 'Michael Johnson',
-      role: 'AI Integration & Backend Engineer',
+      name: 'Abhishek Kunoju',
+      role: 'Frontend Developer & UI/UX Designer',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-      linkedin: 'https://linkedin.com/in/michaeljohnson',
-      email: 'michael.johnson@servicenow-cpq.com',
-      github: 'https://github.com/michaeljohnson'
+      linkedin: 'https://www.linkedin.com/in/abhishek-kunoju/',
+      email: 'abhishekkunoju@gmail.com'
     },
     {
-      name: 'Emily Davis',
-      role: 'Product Manager & Business Analyst',
+      name: 'Rahul Sai Nulakala',
+      role: 'Backend Developer & AI Integration',
+      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+      linkedin: 'https://www.linkedin.com/in/rahul-sai-nulakala-5803b2275/',
+      email: 'rahulsainulakala@gmail.com'
+    },
+    {
+      name: 'Ravuri Sai Supreetha',
+      role: 'Business Analyst & Product Manager',
+      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+      linkedin: 'https://www.linkedin.com/in/ravuri-sai-supreetha-472128278/',
+      email: 'ravurisaisupreetha@gmail.com'
+    },
+    {
+      name: 'Sahithi Reddy Kadar',
+      role: 'Quality Assurance & Compliance Specialist',
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-      linkedin: 'https://linkedin.com/in/emilydavis',
-      email: 'emily.davis@servicenow-cpq.com',
-      github: 'https://github.com/emilydavis'
+      linkedin: 'https://www.linkedin.com/in/sahithi-reddy-kadar-30786b287/',
+      email: 'sahithireddykadar@gmail.com'
     }
   ];
 
@@ -45,48 +48,40 @@ export const Team: React.FC = () => {
             Meet Our Team
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            The talented individuals behind this innovative ServiceNow CPQ solution, 
-            bringing together expertise in enterprise software, AI, and medical equipment sales.
+            A dedicated team of developers and analysts passionate about transforming medical equipment sales 
+            through innovative ServiceNow CPQ solutions and cutting-edge AI integration.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-8">
           {teamMembers.map((member, index) => (
             <div key={index} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 text-center border border-gray-100">
               <div className="relative mb-6">
                 <img 
                   src={member.image}
                   alt={member.name}
-                  className="w-24 h-24 rounded-full mx-auto object-cover shadow-lg"
+                  className="w-20 h-20 rounded-full mx-auto object-cover shadow-lg"
                 />
                 <div className="absolute inset-0 rounded-full bg-blue-600 bg-opacity-0 hover:bg-opacity-10 transition-all duration-300"></div>
               </div>
               
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">{member.name}</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">{member.name}</h3>
               <p className="text-gray-600 mb-4 text-sm leading-relaxed">{member.role}</p>
               
-              <div className="flex justify-center space-x-3">
+              <div className="flex justify-center space-x-4">
                 <a 
                   href={member.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 bg-blue-100 hover:bg-blue-200 rounded-lg transition-colors duration-300"
+                  className="p-3 bg-blue-100 hover:bg-blue-200 rounded-lg transition-colors duration-300"
                 >
-                  <Linkedin className="w-4 h-4 text-blue-600" />
+                  <Linkedin className="w-5 h-5 text-blue-600" />
                 </a>
                 <a 
                   href={`mailto:${member.email}`}
-                  className="p-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors duration-300"
+                  className="p-3 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors duration-300"
                 >
-                  <Mail className="w-4 h-4 text-gray-600" />
-                </a>
-                <a 
-                  href={member.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors duration-300"
-                >
-                  <Github className="w-4 h-4 text-gray-600" />
+                  <Mail className="w-5 h-5 text-gray-600" />
                 </a>
               </div>
             </div>
