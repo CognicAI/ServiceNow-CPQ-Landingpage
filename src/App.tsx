@@ -6,6 +6,7 @@ import { Solution } from './components/sections/Solution';
 import { Features } from './components/sections/Features';
 import { Workflow } from './components/sections/Workflow';
 import { Demo } from './components/sections/Demo';
+import { Architecture } from './components/sections/Architecture';
 import { Technology } from './components/sections/Technology';
 import { Team } from './components/sections/Team';
 import { Footer } from './components/sections/Footer';
@@ -21,6 +22,7 @@ function App() {
         <Features />
         <Workflow />
         <Demo />
+        <Architecture />
         <Technology />
         <Team />
       </main>

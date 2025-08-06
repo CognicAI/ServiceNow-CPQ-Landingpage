@@ -11,6 +11,7 @@ export const Navigation: React.FC = () => {
     { label: 'Features', href: '#features' },
     { label: 'Workflow', href: '#workflow' },
     { label: 'Demo', href: '#demo' },
+    { label: 'Architecture', href: '#architecture' },
     { label: 'Technology', href: '#technology' },
     { label: 'Team', href: '#team' }
   ];
