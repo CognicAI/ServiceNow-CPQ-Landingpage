@@ -1,0 +1,80 @@
+import React from 'react';
+import { Play, Download, ArrowRight } from 'lucide-react';
+import { Button } from '../ui/Button';
+
+export const Hero: React.FC = () => {
+  return (
+    <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white">
+      <div className="absolute inset-0 bg-black opacity-10"></div>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="space-y-8">
+            <div className="space-y-4">
+              <div className="inline-block px-4 py-2 bg-blue-600 bg-opacity-50 rounded-full text-sm font-medium">
+                ServiceNow CPQ Solution
+              </div>
+              <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+                Revolutionize Medical Equipment Sales with{' '}
+                <span className="text-blue-300">AI-Powered CPQ</span>
+              </h1>
+              <p className="text-xl md:text-2xl text-blue-100 leading-relaxed">
+                ServiceNow-based solution that eliminates quoting errors, accelerates sales cycles, 
+                and ensures compliance across global markets
+              </p>
+            </div>
+            
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button 
+                variant="primary" 
+                size="lg" 
+                icon={Play}
+                className="bg-white text-blue-900 hover:bg-blue-50"
+              >
+                View Live Demo
+              </Button>
+              <Button 
+                variant="outline" 
+                size="lg" 
+                icon={Download}
+                className="border-white text-white hover:bg-white hover:text-blue-900"
+              >
+                Download Brochure
+              </Button>
+            </div>
+            
+            <div className="flex items-center space-x-6 pt-4">
+              <div className="text-center">
+                <div className="text-2xl font-bold">90%</div>
+                <div className="text-blue-200 text-sm">Error Reduction</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold">60%</div>
+                <div className="text-blue-200 text-sm">Faster Quotes</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold">100%</div>
+                <div className="text-blue-200 text-sm">Compliance</div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="relative">
+            <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8 border border-white border-opacity-20">
+              <img 
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="CPQ Dashboard Interface"
+                className="w-full h-80 object-cover rounded-xl shadow-2xl"
+              />
+              <div className="absolute -bottom-4 -right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg">
+                <div className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+                  <span className="text-sm font-medium">Live System</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
