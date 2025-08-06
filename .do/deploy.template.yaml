@@ -1,0 +1,24 @@
+# DigitalOcean App Platform deployment configuration
+
+# Node.js version
+engines:
+  node: "18.x"
+
+# Environment variables (if needed)
+# env:
+#   NODE_ENV: production
+
+# Build settings
+build:
+  - name: Install dependencies
+    command: npm ci
+  - name: Build application
+    command: npm run build
+
+# Static site configuration for Vite build output
+static_sites:
+  - name: web
+    source_dir: dist
+    routes:
+      - path: /
+    catchall_document: index.html
