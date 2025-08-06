@@ -13,28 +13,28 @@ export const Team: React.FC = () => {
     {
       name: 'Abhishek Kunoju',
       role: 'Frontend Developer & UI/UX Designer',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+      image: '/images/Team/abhishek.jpg',
       linkedin: 'https://www.linkedin.com/in/abhishek-kunoju/',
       email: 'abhishekkunoju@gmail.com'
     },
     {
       name: 'Rahul Sai Nulakala',
       role: 'Backend Developer & AI Integration',
-      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+      image: '/images/Team/Rahul.jpg',
       linkedin: 'https://www.linkedin.com/in/rahul-sai-nulakala-5803b2275/',
       email: 'rahulsainulakala@gmail.com'
     },
     {
       name: 'Ravuri Sai Supreetha',
       role: 'Business Analyst & Product Manager',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+      image: '/images/Team/Supreetha.jpg',
       linkedin: 'https://www.linkedin.com/in/ravuri-sai-supreetha-472128278/',
       email: 'ravurisaisupreetha@gmail.com'
     },
     {
       name: 'Sahithi Reddy Kadar',
       role: 'Quality Assurance & Compliance Specialist',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+      image: '/images/Team/sahithi.jpg',
       linkedin: 'https://www.linkedin.com/in/sahithi-reddy-kadar-30786b287/',
       email: 'sahithireddykadar@gmail.com'
     }
