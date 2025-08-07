@@ -5,8 +5,8 @@ export const Team: React.FC = () => {
   const teamMembers = [
     {
       name: 'Harsha Vardhanu Parnandi',
-      role: 'Team Lead - Backend, AI & Data Architecture',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+      role: 'Team Lead,Backend, AI, Data & ServiceNow Architect',
+      image: '/images/Team/Harsha.jpg',
       linkedin: 'https://www.linkedin.com/in/harshavardhanuparnandi/',
       email: 'harshajustin2@gmail.com'
     },
@@ -100,21 +100,4 @@ export const Team: React.FC = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <div className="bg-blue-50 px-4 py-2 rounded-full">
-                <span className="text-blue-700 font-medium">ServiceNow Platform</span>
-              </div>
-              <div className="bg-green-50 px-4 py-2 rounded-full">
-                <span className="text-green-700 font-medium">AI Integration</span>
-              </div>
-              <div className="bg-purple-50 px-4 py-2 rounded-full">
-                <span className="text-purple-700 font-medium">Medical Equipment Focus</span>
-              </div>
-              <div className="bg-orange-50 px-4 py-2 rounded-full">
-                <span className="text-orange-700 font-medium">Enterprise CPQ</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
+                <span
