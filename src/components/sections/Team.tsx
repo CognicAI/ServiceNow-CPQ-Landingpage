@@ -100,4 +100,21 @@ export const Team: React.FC = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <div className="bg-blue-50 px-4 py-2 rounded-full">
-                <span
+                <span className="text-blue-800 font-medium">ServiceNow Platform</span>
+              </div>
+              <div className="bg-green-50 px-4 py-2 rounded-full">
+                <span className="text-green-800 font-medium">AI Integration</span>
+              </div>
+              <div className="bg-purple-50 px-4 py-2 rounded-full">
+                <span className="text-purple-800 font-medium">Healthcare CPQ</span>
+              </div>
+              <div className="bg-orange-50 px-4 py-2 rounded-full">
+                <span className="text-orange-800 font-medium">Enterprise Solutions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
