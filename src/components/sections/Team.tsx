@@ -5,35 +5,35 @@ export const Team: React.FC = () => {
   const teamMembers = [
     {
       name: 'Harsha Vardhanu Parnandi',
-      role: 'Team Lead & ServiceNow Architect',
+      role: 'Team Lead - Backend, AI & Data Architecture',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
       linkedin: 'https://www.linkedin.com/in/harshavardhanuparnandi/',
       email: 'harshajustin2@gmail.com'
     },
     {
       name: 'Abhishek Kunoju',
-      role: 'Frontend Developer & UI/UX Designer',
+      role: 'ServiceNow Expert - IntegrationHub & Workflows',
       image: '/images/Team/abhishek.jpg',
       linkedin: 'https://www.linkedin.com/in/abhishek-kunoju/',
       email: 'abhishekkunoju@gmail.com'
     },
     {
       name: 'Rahul Sai Nulakala',
-      role: 'Backend Developer & AI Integration',
+      role: 'Frontend & Documentation Specialist',
       image: '/images/Team/Rahul.jpg',
       linkedin: 'https://www.linkedin.com/in/rahul-sai-nulakala-5803b2275/',
       email: 'rahulsainulakala@gmail.com'
     },
     {
       name: 'Ravuri Sai Supreetha',
-      role: 'Business Analyst & Product Manager',
+      role: 'ServiceNow Expert - UI & Client Scripts',
       image: '/images/Team/Supreetha.jpg',
       linkedin: 'https://www.linkedin.com/in/ravuri-sai-supreetha-472128278/',
       email: 'ravurisaisupreetha@gmail.com'
     },
     {
       name: 'Sahithi Reddy Kadar',
-      role: 'Quality Assurance & Compliance Specialist',
+      role: 'Business Analyst - Presentation & Research',
       image: '/images/Team/sahithi.jpg',
       linkedin: 'https://www.linkedin.com/in/sahithi-reddy-kadar-30786b287/',
       email: 'sahithireddykadar@gmail.com'
