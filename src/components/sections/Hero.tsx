@@ -21,6 +21,10 @@ export const Hero: React.FC = () => {
     document.body.removeChild(link);
   };
 
+  const showDemoMessage = () => {
+    alert('The project is still in progress. Stay tuned for the live demo!');
+  };
+
   return (
     <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white">
       <div className="absolute inset-0 bg-black opacity-10"></div>
@@ -46,6 +50,7 @@ export const Hero: React.FC = () => {
                 variant="primary" 
                 size="lg" 
                 icon={Play}
+                onClick={showDemoMessage}
                 className="bg-blue-600 hover:bg-blue-700 text-white border-0 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
               >
                 View Live Demo
