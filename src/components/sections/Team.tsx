@@ -5,35 +5,35 @@ export const Team: React.FC = () => {
   const teamMembers = [
     {
       name: 'Harsha Vardhanu Parnandi',
-      role: 'Team Lead & ServiceNow Architect',
+      role: 'Team Lead,Backend, AI, Data & ServiceNow Architect',
       image: '/images/Team/Harsha.jpg',
       linkedin: 'https://www.linkedin.com/in/harshavardhanuparnandi/',
       email: 'harshajustin2@gmail.com'
     },
     {
       name: 'Abhishek Kunoju',
-      role: 'Frontend Developer & UI/UX Designer',
+      role: 'ServiceNow Expert - IntegrationHub & Workflows',
       image: '/images/Team/abhishek.jpg',
       linkedin: 'https://www.linkedin.com/in/abhishek-kunoju/',
       email: 'abhishekkunoju@gmail.com'
     },
     {
       name: 'Rahul Sai Nulakala',
-      role: 'Backend Developer & AI Integration',
+      role: 'Frontend & Documentation Specialist',
       image: '/images/Team/Rahul.jpg',
       linkedin: 'https://www.linkedin.com/in/rahul-sai-nulakala-5803b2275/',
       email: 'rahulsainulakala@gmail.com'
     },
     {
       name: 'Ravuri Sai Supreetha',
-      role: 'Business Analyst & Product Manager',
+      role: 'ServiceNow Expert - UI & Client Scripts',
       image: '/images/Team/Supreetha.jpg',
       linkedin: 'https://www.linkedin.com/in/ravuri-sai-supreetha-472128278/',
       email: 'ravurisaisupreetha@gmail.com'
     },
     {
       name: 'Sahithi Reddy Kadar',
-      role: 'Quality Assurance & Compliance Specialist',
+      role: 'Business Analyst - Presentation & Research',
       image: '/images/Team/sahithi.jpg',
       linkedin: 'https://www.linkedin.com/in/sahithi-reddy-kadar-30786b287/',
       email: 'sahithireddykadar@gmail.com'
@@ -100,21 +100,4 @@ export const Team: React.FC = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <div className="bg-blue-50 px-4 py-2 rounded-full">
-                <span className="text-blue-700 font-medium">ServiceNow Platform</span>
-              </div>
-              <div className="bg-green-50 px-4 py-2 rounded-full">
-                <span className="text-green-700 font-medium">AI Integration</span>
-              </div>
-              <div className="bg-purple-50 px-4 py-2 rounded-full">
-                <span className="text-purple-700 font-medium">Medical Equipment Focus</span>
-              </div>
-              <div className="bg-orange-50 px-4 py-2 rounded-full">
-                <span className="text-orange-700 font-medium">Enterprise CPQ</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
+                <span

@@ -1,8 +1,15 @@
 import React from 'react';
-import { Play, Download, ArrowRight } from 'lucide-react';
+import { Play, Download, ChevronDown } from 'lucide-react';
 import { Button } from '../ui/Button';
 
 export const Hero: React.FC = () => {
+  const scrollToNextSection = () => {
+    const nextSection = document.querySelector('#problem') || document.querySelector('section:nth-of-type(2)');
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white">
       <div className="absolute inset-0 bg-black opacity-10"></div>
@@ -74,6 +81,22 @@ export const Hero: React.FC = () => {
             </div>
           </div>
         </div>
+      </div>
+      
+      {/* Scroll Down Indicator */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+        <button
+          onClick={scrollToNextSection}
+          className="flex flex-col items-center space-y-2 text-white hover:text-blue-300 transition-colors duration-300 group"
+          aria-label="Scroll to next section"
+        >
+          <span className="text-sm font-medium opacity-80 group-hover:opacity-100 transition-opacity duration-300">
+            Scroll to explore
+          </span>
+          <div className="p-2 rounded-full border border-white border-opacity-30 group-hover:border-blue-300 transition-all duration-300 animate-bounce">
+            <ChevronDown className="w-5 h-5" />
+          </div>
+        </button>
       </div>
     </section>
   );
