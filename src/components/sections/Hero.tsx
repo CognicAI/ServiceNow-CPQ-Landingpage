@@ -10,6 +10,17 @@ export const Hero: React.FC = () => {
     }
   };
 
+  const downloadDocumentation = () => {
+    // Download the actual PDF document from public folder
+    const link = document.createElement('a');
+    link.href = '/Document/Cognic AI_Idea_SNU HackNow India.pdf';
+    link.download = 'Cognic AI_Idea_SNU HackNow India.pdf';
+    link.target = '_blank'; // Open in new tab as fallback
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white">
       <div className="absolute inset-0 bg-black opacity-10"></div>
@@ -43,9 +54,10 @@ export const Hero: React.FC = () => {
                 variant="outline" 
                 size="lg" 
                 icon={Download}
+                onClick={downloadDocumentation}
                 className="bg-white bg-opacity-10 backdrop-blur-sm border-white border-opacity-30 text-white hover:bg-white hover:bg-opacity-20 hover:border-opacity-50 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
               >
-                Download Brochure
+                Documentation
               </Button>
             </div>
             
