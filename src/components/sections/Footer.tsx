@@ -28,7 +28,7 @@ export const Footer: React.FC = () => {
     { label: 'System Architecture', href: '#architecture' },
     { label: 'Technology Stack', href: '#technology' },
     { label: 'Project Features', href: '#features' },
-    { label: 'GitHub Repository', href: 'https://github.com/CognicAI/ServiceNow-CPQ-Landingpage' }
+    { label: 'GitHub Repository', href: 'https://github.com/CognicAI/ServiceNow-CPQ-Backend' }
   ];
 
   return (
@@ -136,7 +136,7 @@ export const Footer: React.FC = () => {
             </div>
             <div className="flex flex-wrap justify-center lg:justify-end gap-4">
               <a 
-                href="https://github.com/CognicAI/ServiceNow-CPQ-Landingpage" 
+                href="https://github.com/CognicAI/ServiceNow-CPQ-Backend" 
                 className="text-gray-400 hover:text-white text-sm transition-colors duration-200"
                 target="_blank"
                 rel="noopener noreferrer"
